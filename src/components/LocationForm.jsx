@@ -9,10 +9,10 @@ const LocationForm = ({handleSubmit}) => {
       </section>
       <div className="flex flex-col justify-center items-center gap-4">
           <form onSubmit={handleSubmit} className="flex-row w-76 h-12 border-[#8EFF8B] border-2">
-                <input className="text-white bg-black w-52 outline-none" min={1} max={126} id="newLocation" placeholder="Type a location id..." type="number"  />
+                <input className="text-white bg-black w-52 outline-none" min={1} max={126} id="newLocation" placeholder="Type a location id...(1-126)" type="number"  />
                 <button className="bg-[#8EFF8B80] w-16 h-11">search</button>
           </form>
-          <h2 className="w-64 py-4 text-[#8EFF8B] text-[18px]">¡Welcome to the crazy universe!</h2> 
+          <h2 className="py-4 text-[#8EFF8B] text-[17px] font-firacode">¡Welcome to the crazy universe!</h2> 
       </div>
           
       
@@ -21,3 +21,4 @@ const LocationForm = ({handleSubmit}) => {
   )
 }
 export default LocationForm
+

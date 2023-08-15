@@ -33,7 +33,7 @@ const ResidentCard = ({residentUrl}) => {
             
         </header>
         <section className="p-2 py-4 border-[#8EFF8B] border-2 rounded-b-lg">
-            <h3 className="px-2 text-l font-bold">{residentInfo?.name}</h3>
+            <h3 className="px-2 text-l font-firacode">{residentInfo?.name}</h3>
             <ul className="px-2">
                 <li><span className="text-[#8EFF8B]">Species  </span>     {residentInfo?.species}</li>
                 <li><span className="text-[#8EFF8B]">Origin </span>       {residentInfo?.origin.name}</li>
